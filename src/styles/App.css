@@ -1,0 +1,82 @@
+/* src/styles/App.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.App {
+    text-align: center;
+}
+
+.App-header {
+    background-color: hsl(56, 89%, 44%);
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.product-card {
+    border: 1px solid hwb(195 93% 5%);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    background-color: #e0c01c;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-card h3 {
+    font-size: 1.5em;
+}
+
+.product-card p {
+    font-size: 1.2em;
+}
+
+.product-card button {
+    background-color: #d39a15; /* Green */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.product-card button:hover {
+    background-color: hsl(47, 84%, 49%); /* Darker green */
+}
+
+.cart {
+    padding: 20px;
+}
+
+.cart h2 {
+    font-size: 2em;
+}
+
+.cart div {
+    border-bottom: 1px solid hsl(180, 17%, 95%);
+    padding: 10px 0;
+}
